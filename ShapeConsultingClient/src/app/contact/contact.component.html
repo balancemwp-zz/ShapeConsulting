@@ -1,0 +1,56 @@
+<section id="contact" ng-controller="contactController as vm">
+   
+    <div class="container">
+        <div class="row sub-icon">
+            <div class="col-md-10 col-md-offset-1 col-md-push-1">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3><span class="ti-email pin"></span>Email</h3>
+                        
+                        <a href="mailto:info@shapeconsulting.com">info@shapeconsulting.com</a>	
+                    </div>
+                    <div class="col-sm-4">
+                        <h3><span class="ti-mobile pin"></span>Phone</h3>
+                        <p>1.804.201.1302</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3><span class="ti-location-pin pin"></span>Address</h3>
+                        <p>1500 River Road W, Crozier, Va 23039</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="row top-pad sub-icon" >
+            <div class="col-md-8 col-md-offset-2">
+                <form class="form-horizontal" name="contactForm" novalidate role="form">
+                    <div class="contact-overlay" ng-show="vm.isBusy">
+                        <img id="mySpinner" src="../../assets/images/spinner.gif" />
+                    </div>
+                    <div class="contact-overlay" ng-if="vm.complete" ng-init="vm.display()">
+                        <img id="success" src="../../assets/images/success.gif" />
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <input class="form-control" id="name" type="text" name="name" ng-model="vm.requestContact.name" placeholder="Your Name" required />
+                            <span class="label label-danger" ng-show="submitted && contactForm.name.$error.required">Required!</span>
+
+                            <input class="form-control" type="text" name="subject" ng-model="vm.requestContact.subject" placeholder="Subject" required="required">
+                            <span class="label label-danger" ng-show="submitted && contactForm.subject.$error.required">Required!</span>
+
+                            <input class="form-control" id="email" type="email" name="email" ng-model="vm.requestContact.emailAddress" placeholder="Your Email Address" required />
+                            <span class="label label-danger" ng-show="submitted && contactForm.email.$error.required">Required!</span>
+                            <span class="label label-danger" ng-show="submitted && contactForm.$error.email">Invalid email!</span>
+
+                            <textarea class="form-control" name="message" ng-model="vm.requestContact.message" rows="4" placeholder="Please enter your message" required></textarea>
+                            <span class="label label-danger" ng-show="submitted && contactForm.message.$error.required">Required!</span>
+
+                            <button class="btn custom-btn-2" ng-disabled="progress.active()" ng-click="vm.sendContactRequest(contactForm)">Submit</button>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
