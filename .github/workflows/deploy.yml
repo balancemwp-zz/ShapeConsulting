@@ -42,4 +42,10 @@ jobs:
       
       - name: Build
         run: npm run build:prod
+        
+      - name: Deploy to GitHub Pages
+        uses: balancemwp/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: dist/shapeconsulting
 
