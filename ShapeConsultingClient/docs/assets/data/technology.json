@@ -1,0 +1,130 @@
+﻿{
+  "technologies": [
+    {
+      "filter": "microsoft",
+      "name": "C#",
+      "image": "images/technology/csharp.jpg",
+      "order": 1
+    },
+    {
+      "filter": "microsoft",
+      "name": "MS MVC",
+      "image": "images/technology/mvc.jpg",
+      "order": 3
+    },
+    {
+      "filter": "microsoft",
+      "name": "Wcf",
+      "image": "images/technology/wcf.png",
+      "order": 12
+    },
+    {
+      "filter": "microsoft",
+      "name": "WebApi",
+      "image": "images/technology/webApi.jpg",
+      "order": 10
+    },
+    {
+      "filter": "microsoft",
+      "name": "MS SSIS",
+      "image": "images/technology/ssis.png",
+      "order": 14
+    },
+    {
+      "filter": "microsoft",
+      "name": "MS SSRS",
+      "image": "images/technology/ssrs.png",
+      "order": 4
+    },
+    {
+      "filter": "frontEnd",
+      "name": "Html5",
+      "image": "images/technology/html5.png",
+      "order": 18
+    },
+    {
+      "filter": "frontEnd",
+      "name": "Css",
+      "image": "images/technology/css.jpg",
+      "order": 15
+    },
+    {
+      "filter": "frontEnd",
+      "name": "Javascript",
+      "image": "images/technology/javascript.jpg",
+      "order": 8
+    },
+    {
+      "filter": "frontEnd",
+      "name": "Jquery",
+      "image": "images/technology/jquery.png",
+      "order": 11
+    },
+    {
+      "filter": "frontEnd",
+      "name": "Angular",
+      "image": "images/technology/angular.png",
+      "order": 19
+    },
+    {
+      "filter": "frontEnd",
+      "name": "_Underscore js",
+      "image": "images/technology/underscore.png",
+      "order": 5
+    },
+    {
+      "filter": "frontEnd",
+      "name": "Kendo UI",
+      "image": "images/technology/kendoui.jpg",
+      "order": 13
+    },
+    {
+      "filter": "frontEnd",
+      "name": "Knockout js",
+      "image": "images/technology/knockout.jpg",
+      "order": 2
+    },
+    {
+      "filter": "database",
+      "name": "MS Sql Server",
+      "image": "images/technology/sqlServer.png",
+      "order": 17
+    },
+    {
+      "filter": "database",
+      "name": "MongoDb",
+      "image": "images/technology/mongoDb.png",
+      "order": 7
+    },
+    {
+      "filter": "database",
+      "name": "MySql",
+      "image": "images/technology/mySql.png",
+      "order": 16
+    },
+    {
+      "filter": "cloud",
+      "name": "Azure",
+      "image": "images/technology/azure.png",
+      "order": 6
+    },
+    {
+      "filter": "cloud",
+      "name": "TFS",
+      "image": "images/technology/tfs.jpg",
+      "order": 20
+    },
+    {
+      "filter": "cloud",
+      "name": "Git",
+      "image": "images/technology/git.jpg",
+      "order": 9
+    },
+    {
+      "filter": "cloud",
+      "name": "Subversion",
+      "image": "images/technology/subversion.jpg",
+      "order": 21
+    }
+  ]
+}
